@@ -1,0 +1,148 @@
+/* estilo.css — c0okiebun edition */
+
+body {
+  background-color: #fff1f8;
+  color: #333;
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/bg-pattern.png');
+  background-repeat: repeat;
+}
+
+header, footer {
+  background-color: #e086a4;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 5px double #fff;
+}
+
+header h1, footer p {
+  margin: 0;
+  text-shadow: 1px 1px #a05070;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  background-color: #c1a1d3;
+  border-radius: 6px;
+  box-shadow: 2px 2px #a484bb;
+}
+
+nav ul li a:hover {
+  background-color: #a484bb;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  border: 2px dashed #eedff2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #dcbddf;
+  height: 80vh;
+}
+
+h1, h2, h3 {
+  color: #a05070;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+img {
+  border-radius: 10px;
+  border: 2px solid #eedff2;
+  max-width: 100%;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.galeria figure {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fef6fb;
+  border: 1px solid #eedff2;
+  border-radius: 10px;
+}
+
+.galeria figcaption {
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: #555;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fef6fb;
+  border: 2px solid #eedff2;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #a05070;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #fff9fd;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #c1a1d3;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 2px 2px #a484bb;
+}
+
+button:hover {
+  background-color: #a484bb;
+}
+
+#feedback {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
